@@ -1,2 +1,2 @@
 # 210324-english-prolific
-Experiment probing resumption in direct object relative clauses
+Materials for experiment probing resumption in direct object relative clauses
