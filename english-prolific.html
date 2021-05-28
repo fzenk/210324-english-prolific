@@ -69,9 +69,12 @@
             'https://image.freepik.com/free-vector/book-readers-concept_74855-6263.jpg',
             'https://image.freepik.com/free-vector/happy-man-holding-five-golden-stars-customer-review-social-media-flat-illustration_74855-14060.jpg',
             'https://image.freepik.com/free-vector/tiny-screenwriter-sitting-retro-typewriter-thinking-screenplay-while-paper-drafts-flying-around-author_74855-14178.jpg',
+            'https://image.freepik.com/free-vector/online-survey-analysis-electronic-data-collection-digital-research-tool-computerized-study-analyst-considering-feedback-results-analyzing-info_335657-2385.jpg',
         ],
     }
     timeline.push(preload);
+
+    /*
 
     // consent form
 
@@ -1210,9 +1213,29 @@
     };
     timeline.push(ctest);
 
+    */
+
     // -----------------------------------------------------------------------------
     // wrap-up
     // -----------------------------------------------------------------------------
+
+    // exit survey
+
+    var exit_survey = {
+        type: 'survey-html-form',
+        data: {trial_name: 'exit_survey'},
+        button_label: 'Continue',
+        html: 
+            '<style>p {text-align:left; spellcheck=false;} input[type="text"] {width:8ch;} fieldset {border:1px solid #999;box-shadow:2px 2px 5px #999;} legend {background:#fff;text-align:left;font-size:110%;}</style>'+
+            '<img src="https://image.freepik.com/free-vector/online-survey-analysis-electronic-data-collection-digital-research-tool-computerized-study-analyst-considering-feedback-results-analyzing-info_335657-2385.jpg" height="150" title="image credit: vectorjuice / Freepik (www.freepik.com)"><br>'+
+            '<span style="font-size:125%; font-weight:bold;">Exit Survey</span>'+
+            '<p>What do you think the researcher is trying to find out from this experiment?</p>'+
+            '<p style="text-align:left;"><textarea name="other_countries" rows="3" style="width:90%;" required></textarea></p>'+
+            '<p>If you experienced any difficulties while taking part in the experiment, please describe them here.</p>'+
+            '<p style="text-align:left;"><textarea name="other_countries" rows="3" style="width:90%;"></textarea></p>'+
+            '',
+    };
+    timeline.push(exit_survey);
 
     // blank trial that ends the experiment and takes the participant to the end message
 
