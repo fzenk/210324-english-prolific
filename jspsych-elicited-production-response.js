@@ -1,5 +1,8 @@
 /**
  * jspsych-elicited-production-response
+ * 
+ * adapted by Fred Zenker from code written by...
+ * 
  * Matt Jaquiery, Feb 2018 (https://github.com/mjaquiery)
  * Becky Gilbert, Apr 2020 (https://github.com/becky-gilbert)
  *

@@ -1,5 +1,8 @@
 /**
  * jspsych-acceptability-judgment
+ * 
+ * adapted by Fred Zenker from code written by...
+ * 
  * Josh de Leeuw
  *
  * plugin for displaying a stimulus and getting a keyboard response
